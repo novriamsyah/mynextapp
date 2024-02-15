@@ -1,0 +1,48 @@
+.card_shimmer {
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    max-width:300px;
+    display: flex;
+    flex-direction: column;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    width: 500px;
+
+    &__img {
+        width: 100%;
+        height: 200px;
+        background-color: #c1b5b5;
+    }
+
+    &__title {
+        width: 100%;
+        height: 20px;
+        background-color: #c1b5b5;
+        margin-top: 1rem;
+    }
+
+    &__price {
+        width: 100%;
+        height: 20px;
+        background-color: #c1b5b5;
+        margin-top: 1rem;
+    }
+
+    &__description {
+        width: 100%;
+        height: 20px;
+        background-color: #c1b5b5;
+        margin-top: 1rem;
+    }
+
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+}
